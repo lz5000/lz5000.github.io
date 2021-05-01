@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>老子五千言</title>
+  
+  <subtitle>山人问道，回归老子</subtitle>
+  <link href="http://lz5000.com/atom.xml" rel="self"/>
+  
+  <link href="http://lz5000.com/"/>
+  <updated>2021-04-20T04:58:49.000Z</updated>
+  <id>http://lz5000.com/</id>
+  
+  <author>
+    <name>蚩萸山人</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello 老子</title>
+    <link href="http://lz5000.com/uncategorized/hello-lao-zi"/>
+    <id>http://lz5000.com/uncategorized/hello-lao-zi</id>
+    <published>2021-04-20T04:58:49.000Z</published>
+    <updated>2021-04-20T04:58:49.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://lz5000.com/uncategorized/hello-world"/>
+    <id>http://lz5000.com/uncategorized/hello-world</id>
+    <published>2021-04-20T04:57:50.000Z</published>
+    <updated>2021-04-20T04:57:50.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="http://lz5000.com/uncategorized/hello-hexo"/>
+    <id>http://lz5000.com/uncategorized/hello-hexo</id>
+    <published>2021-04-20T04:56:30.000Z</published>
+    <updated>2021-04-20T04:56:30.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://lz5000.com/uncategorized/hello-world"/>
+    <id>http://lz5000.com/uncategorized/hello-world</id>
+    <published>2021-04-20T04:52:34.000Z</published>
+    <updated>2021-04-20T04:52:34.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
