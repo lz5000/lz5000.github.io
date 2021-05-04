@@ -17,7 +17,7 @@
 
 
     <title>typora-vue-theme主题介绍3 | 老子五千言</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/gif" href="/test.gif">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
@@ -648,32 +648,47 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/uncategorized/hello-world">
+                <a href="/markdown/typora-vue-theme-zhu-ti-jie-shao-4">
                     <div class="card-image">
                         
+                        <img src="/source/images/xxx.jpg" class="responsive-img" alt="typora-vue-theme主题介绍4">
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">typora-vue-theme主题介绍4</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-20
+                            <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            蚩萸山人
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Typora/">
+                        <span class="chip bg-color">Typora</span>
+                    </a>
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -682,15 +697,15 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/markdown/typora-vue-theme-zhu-ti-jie-shao-4">
+                <a href="/markdown/typora-vue-theme-zhu-ti-jie-shao-3">
                     <div class="card-image">
                         
-                        <img src="/source/images/xxx.jpg" class="responsive-img" alt="typora-vue-theme主题介绍4">
+                        <img src="/source/images/xxx.jpg" class="responsive-img" alt="typora-vue-theme主题介绍3">
                         
-                        <span class="card-title">typora-vue-theme主题介绍4</span>
+                        <span class="card-title">typora-vue-theme主题介绍3</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -715,6 +730,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     

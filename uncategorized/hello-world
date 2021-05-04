@@ -17,7 +17,7 @@
 
 
     <title>Hello World | 老子五千言</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/gif" href="/test.gif">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
@@ -767,12 +767,12 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/markdown/typora-vue-theme-zhu-ti-jie-shao-3">
+                <a href="/markdown/typora-vue-theme-zhu-ti-jie-shao">
                     <div class="card-image">
                         
-                        <img src="/source/images/xxx.jpg" class="responsive-img" alt="typora-vue-theme主题介绍3">
+                        <img src="/source/images/xxx.jpg" class="responsive-img" alt="typora-vue-theme主题介绍">
                         
-                        <span class="card-title">typora-vue-theme主题介绍3</span>
+                        <span class="card-title">typora-vue-theme主题介绍</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
