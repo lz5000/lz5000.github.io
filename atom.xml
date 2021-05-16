@@ -6,7 +6,7 @@
   <link href="http://lz5000.com/atom.xml" rel="self"/>
   
   <link href="http://lz5000.com/"/>
-  <updated>2021-05-07T02:07:52.000Z</updated>
+  <updated>2021-05-10T12:27:41.000Z</updated>
   <id>http://lz5000.com/</id>
   
   <author>
@@ -15,6 +15,77 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>abcde</title>
+    <link href="http://lz5000.com/about/next/abcde/"/>
+    <id>http://lz5000.com/about/next/abcde/</id>
+    <published>2021-05-10T06:20:04.000Z</published>
+    <updated>2021-05-10T12:27:41.000Z</updated>
+    
+    
+    
+    
+    <category term="about" scheme="http://lz5000.com/categories/about/"/>
+    
+    <category term="next" scheme="http://lz5000.com/categories/about/next/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>abcd</title>
+    <link href="http://lz5000.com/about/abcd/"/>
+    <id>http://lz5000.com/about/abcd/</id>
+    <published>2021-05-10T06:19:43.000Z</published>
+    <updated>2021-05-10T06:19:54.000Z</updated>
+    
+    
+    
+    
+    <category term="about" scheme="http://lz5000.com/categories/about/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>abc</title>
+    <link href="http://lz5000.com/about/abc/"/>
+    <id>http://lz5000.com/about/abc/</id>
+    <published>2021-05-10T06:18:48.000Z</published>
+    <updated>2021-05-16T03:24:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;LaTeX-expression&quot;&gt;LaTeX expression&lt;/h3&gt;
+&lt;p&gt;a&lt;sup&gt;2&lt;/sup&gt;  &lt;span class=&quot;katex&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="about" scheme="http://lz5000.com/categories/about/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>riji</title>
+    <link href="http://lz5000.com/about/riji/"/>
+    <id>http://lz5000.com/about/riji/</id>
+    <published>2021-05-10T02:17:02.000Z</published>
+    <updated>2021-05-10T06:19:10.000Z</updated>
+    
+    
+    
+    
+    <category term="about" scheme="http://lz5000.com/categories/about/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello 老子</title>
@@ -28,7 +99,11 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;0x00-写在前面&quot;&gt;&lt;a href=&quot;#0x00-写在前面&quot; class=&quot;headerlink&quot; title=&quot;0x00 写在前面&quot;&gt;&lt;/a&gt;0x00 写在前面&lt;/h1&gt;&lt;h4 id=&quot;到底什么是个Markdown&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1&gt;0x00 写在前面&lt;/h1&gt;
+&lt;h4 id=&quot;到底什么是个Markdown&quot;&gt;到底什么是个Markdown?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt;</summary>
         
       
     
@@ -42,8 +117,19 @@
     <link href="http://lz5000.com/uncategorized/hello-hexo/"/>
     <id>http://lz5000.com/uncategorized/hello-hexo/</id>
     <published>2021-04-20T04:56:30.000Z</published>
-    <updated>2021-04-20T04:56:30.000Z</updated>
+    <updated>2021-05-15T13:43:15.000Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Welcome to Marxico&lt;/h1&gt;
+&lt;p&gt;@(Sample notebook)[Marxico|Manual|Markdown]&lt;/p&gt;
+&lt;p&gt;&lt;ins&gt;inserted&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Marxico&lt;/strong&gt; is a</summary>
+        
+      
     
     
     
@@ -72,11 +158,36 @@
   </entry>
   
   <entry>
-    <title>typora-vue-theme主题介绍</title>
-    <link href="http://lz5000.com/markdown/typora-vue-theme-zhu-ti-jie-shao/"/>
-    <id>http://lz5000.com/markdown/typora-vue-theme-zhu-ti-jie-shao/</id>
+    <title>第〇一章 德道之后</title>
+    <link href="http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/di-0yi-zhang-de-dao-zhi-hou/"/>
+    <id>http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/di-0yi-zhang-de-dao-zhi-hou/</id>
+    <published>2020-03-31T22:47:08.000Z</published>
+    <updated>2021-05-14T01:46:03.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第〇一章-德道之后&quot;&gt;第〇一章 德道之后&lt;/h2&gt;
+&lt;p&gt;​	&lt;a href=&quot;#word-comment-1&quot;&gt;上德不德&lt;sup&gt;①&lt;/sup&gt;&lt;/a&gt;，是以有德；下德不失德，是以无德。&lt;br&gt;
+​	上德&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="老子章释|大爱弗居,自由民主" scheme="http://lz5000.com/categories/%E8%80%81%E5%AD%90%E7%AB%A0%E9%87%8A-%E5%A4%A7%E7%88%B1%E5%BC%97%E5%B1%85-%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>typora-theme主题介绍2</title>
+    <link href="http://lz5000.com/markdown/typora-theme-zhu-ti-jie-shao-2/"/>
+    <id>http://lz5000.com/markdown/typora-theme-zhu-ti-jie-shao-2/</id>
     <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2021-05-04T06:57:20.000Z</updated>
+    <updated>2021-05-08T22:59:04.000Z</updated>
     
     
     
@@ -110,11 +221,11 @@
   </entry>
   
   <entry>
-    <title>typora-theme主题介绍2</title>
-    <link href="http://lz5000.com/markdown/typora-theme-zhu-ti-jie-shao-2/"/>
-    <id>http://lz5000.com/markdown/typora-theme-zhu-ti-jie-shao-2/</id>
+    <title>typora-vue-them主题介绍3</title>
+    <link href="http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/"/>
+    <id>http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/</id>
     <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2021-05-08T22:59:04.000Z</updated>
+    <updated>2021-05-08T22:59:31.000Z</updated>
     
     
     
@@ -129,16 +240,18 @@
   </entry>
   
   <entry>
-    <title>typora-vue-them主题介绍3</title>
-    <link href="http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/"/>
-    <id>http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/</id>
+    <title>typora-vue-theme主题介绍</title>
+    <link href="http://lz5000.com/markdown/next/typora-vue-theme-zhu-ti-jie-shao/"/>
+    <id>http://lz5000.com/markdown/next/typora-vue-theme-zhu-ti-jie-shao/</id>
     <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2021-05-08T22:59:31.000Z</updated>
+    <updated>2021-05-10T12:33:56.000Z</updated>
     
     
     
     
     <category term="Markdown" scheme="http://lz5000.com/categories/Markdown/"/>
+    
+    <category term="next" scheme="http://lz5000.com/categories/Markdown/next/"/>
     
     
     <category term="Typora" scheme="http://lz5000.com/tags/Typora/"/>
