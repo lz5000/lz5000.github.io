@@ -463,7 +463,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1k
+                    1.1k
                 </div>
                 
 
@@ -490,10 +490,19 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1>Welcome to Marxico</h1>
+                <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>[TOC]</p>
+<h1>Welcome to Marxico</h1>
+<p>basic footnote<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="basic footnote content
+">8</span></a></sup><br>
+here is an inline footnote<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="inline footnote">2</span></a></sup><br>
+and another one<sup id="fnref:demo"><a href="#fn:demo" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="paragraph
+footnote
+content">demo</span></a></sup><br>
+and another one<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="footnote content with some [markdown](https://en.wikipedia.org/wiki/Markdown)">4</span></a></sup><br>
+basic footnote<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="basic footnote content
+">8</span></a></sup></p>
 <p>@(Sample notebook)[Marxico|Manual|Markdown]</p>
-<p><ins>inserted</ins></p>
-<p><strong>Marxico</strong> is a delicate Markdown <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>editor <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>for Evernote. With reliable storage and sync powered by Evernote, <strong>Marxico</strong> offers greate writing experience.</p>
+<p><strong>Marxico</strong> is a delicate Markdown editor for Evernote. With reliable storage and sync powered by Evernote, <strong>Marxico</strong> offers greate writing experience.</p>
 <ul>
 <li>
 <p><strong>Versatile</strong> - supporting code highlight, <em>LaTeX</em> &amp; flow charts,  inserting images &amp; attachments by all means.</p>
@@ -506,12 +515,11 @@
 </li>
 </ul>
 <hr>
-<p>[TOC]</p>
 <h2 id="Introducing-Markdown">Introducing Markdown</h2>
 <blockquote>
 <p>Markdown is a plain text formatting syntax designed to be converted to <abbr title="Hyper Text Markup Language">HTML</abbr>. Markdown is popularly used as format for readme files, … or in text editors for the quick creation of rich text documents.  - <a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Markdown">Wikipedia</a></p>
 </blockquote>
-<p>As showed in this manual, it uses hash(#) to identify headings, emphasizes some text to be <strong>bold</strong> or <em>italic</em>. You can insert a <a target="_blank" rel="noopener" href="http://www.example.com">link</a> , or a footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>. Serveral advanced syntax are listed below, please press <code>Ctrl + /</code> to view Markdown cheatsheet.</p>
+<p>As showed in this manual, it uses hash(#) to identify headings, emphasizes some text to be <strong>bold</strong> or <em>italic</em>. You can insert a <a target="_blank" rel="noopener" href="http://www.example.com">link</a> , or a footnote[demo]. Serveral advanced syntax are listed below, please press <code>Ctrl + /</code> to view Markdown cheatsheet.</p>
 <h3 id="Code-block">Code block</h3>
 <p>sup: 2<sup>,</sup></p>
 <p>sub: 2<sub>,</sub></p>
@@ -602,6 +610,7 @@ is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 <blockquote>
 <p><strong>Note:</strong> Currently it is only partially supported. You can’t toggle checkboxes in Evernote. You can only modify the Markdown in Marxico to do that. Next version will fix this.</p>
 </blockquote>
+<p><img src="/Users/Leo/Desktop/WechatIMG1501.jpeg" alt="1"></p>
 <h3 id="Dancing-with-Evernote">Dancing with Evernote</h3>
 <h4 id="Notebook-Tags">Notebook &amp; Tags</h4>
 <p><strong>Marxico</strong> add <code>@(Notebook)[tag1|tag2|tag3]</code> syntax to select notebook and set tags for the note. After typing <code>@(</code>, the notebook list would appear, please select one from it.</p>
@@ -649,6 +658,7 @@ Convert Heading    <code>Ctrl + H</code></p>
 </ul>
 <hr>
 <p>Thank you for reading this manual. Now please press <code>Ctrl + M</code> and click <code>Link with Evernote</code>. Enjoy your <strong>Marxico</strong> journey!</p>
+<p>[demo]: This is a demo footnote. Read the <a target="_blank" rel="noopener" href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes">MultiMarkdown Syntax Guide</a> to learn more. Note that Evernote disables ID attributes in its notes , so <code>footnote</code> and <code>TOC</code> are not actually working.</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Start
 e=>end
 op=>operation: My Operation
@@ -658,19 +668,9 @@ st->op->cond
 cond(yes)->e
 cond(no)->op</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script src="https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js"></script><script src="https://cdn.bootcss.com/snap.svg/0.5.1/snap.svg-min.js"></script><script src="https://cdn.bootcss.com/underscore.js/1.9.1/underscore-min.js"></script><script src="https://cdn.bootcss.com/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script><textarea id="sequence-0-code" style="display: none">Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!</textarea><textarea id="sequence-0-options" style="display: none">{"theme":"simple"}</textarea><script>  var code = document.getElementById("sequence-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-0-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-0", options);</script><hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>test <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>paragraph <code>[markdown](https://en.wikipedia.org/wiki/Markdown)</code><br>
-footnote<br>
-content <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p>This is a demo footnote. Read the <a target="_blank" rel="noopener" href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes">MultiMarkdown Syntax Guide</a> to learn more. Note that Evernote disables ID attributes in its notes , so <code>footnote</code> and <code>TOC</code> are not actually working. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
+Bob-->Alice: I am good thanks!</textarea><textarea id="sequence-0-options" style="display: none">{"theme":"simple"}</textarea><script>  var code = document.getElementById("sequence-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-0-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-0", options);</script><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">inline footnote<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">basic footnote content<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:demo"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">demo.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">paragraph
+<p>footnote<br>
+content<a href="#fnref:demo" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">footnote content with some <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Markdown">markdown</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div></p>
 
                 
             </div>
@@ -1336,7 +1336,7 @@ if (window.mermaid) {
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            headingSelector: 'h2, h3, h4, h5, h6'
         });
 
         // modify the toc link href to support Chinese.
@@ -1348,7 +1348,7 @@ if (window.mermaid) {
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4, h5, h6').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -1480,7 +1480,7 @@ if (window.mermaid) {
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7k</span>&nbsp;字
+                class="white-color">7.1k</span>&nbsp;字
             
             
             

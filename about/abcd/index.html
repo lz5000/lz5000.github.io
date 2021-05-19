@@ -346,11 +346,12 @@
     #articleContent h3::before,
     #articleContent h4::before,
     #articleContent h5::before,
-    #articleContent h6::before {
+    #articleContent h6::before,
+    #articleContent sup::before {
         display: block;
         content: " ";
-        height: 100px;
-        margin-top: -100px;
+        height: 200px;
+        margin-top: -200px;
         visibility: hidden;
     }
 
@@ -472,7 +473,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    34
                 </div>
                 
 
@@ -499,7 +500,19 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>basic footnote<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="basic footnote content
+">8</span></a></sup><br>
+here is an inline footnote<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="inline footnote">2</span></a></sup><br>
+and another one<sup id="fnref:demo"><a href="#fn:demo" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="paragraph
+footnote
+content">demo</span></a></sup><br>
+and another one<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="footnote content with some [markdown](https://en.wikipedia.org/wiki/Markdown)">4</span></a></sup><br>
+basic footnote<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="basic footnote content
+">8</span></a></sup></p>
+<p><a target="_blank" rel="noopener" href="http://marxiabcd.co/client_en">desktop client</a></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">inline footnote<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">basic footnote content<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:demo"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">demo.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">paragraph
+footnote
+content<a href="#fnref:demo" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">footnote content with some <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Markdown">markdown</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>
                 
             </div>
             <hr/>
@@ -1176,7 +1189,7 @@ if (window.mermaid) {
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            headingSelector: 'h2, h3, h4, h5, h6'
         });
 
         // modify the toc link href to support Chinese.
@@ -1188,7 +1201,7 @@ if (window.mermaid) {
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h2, h3, h4, h5, h6').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -1320,7 +1333,7 @@ if (window.mermaid) {
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7k</span>&nbsp;字
+                class="white-color">7.1k</span>&nbsp;字
             
             
             

@@ -24,6 +24,14 @@
     <updated>2021-05-10T12:27:41.000Z</updated>
     
     
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;</summary>
+        
+      
+    
     
     
     <category term="about" scheme="http://lz5000.com/categories/about/"/>
@@ -38,8 +46,16 @@
     <link href="http://lz5000.com/about/abcd/"/>
     <id>http://lz5000.com/about/abcd/</id>
     <published>2021-05-10T06:19:43.000Z</published>
-    <updated>2021-05-10T06:19:54.000Z</updated>
+    <updated>2021-05-19T07:52:30.000Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;basic footnote&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a</summary>
+        
+      
     
     
     
@@ -60,8 +76,7 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;LaTeX-expression&quot;&gt;LaTeX expression&lt;/h3&gt;
-&lt;p&gt;a&lt;sup&gt;2&lt;/sup&gt;  &lt;span class=&quot;katex&quot;&gt;&lt;span</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h3 id=&quot;LaTeX-expression&quot;&gt;LaTeX</summary>
         
       
     
@@ -79,6 +94,14 @@
     <published>2021-05-10T02:17:02.000Z</published>
     <updated>2021-05-10T06:19:10.000Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;</summary>
+        
+      
     
     
     
@@ -99,11 +122,8 @@
       
         
         
-    <summary type="html">&lt;h1&gt;0x00 写在前面&lt;/h1&gt;
-&lt;h4 id=&quot;到底什么是个Markdown&quot;&gt;到底什么是个Markdown?&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h1&gt;0x00 写在前面&lt;/h1&gt;
+&lt;h4</summary>
         
       
     
@@ -117,17 +137,15 @@
     <link href="http://lz5000.com/uncategorized/hello-hexo/"/>
     <id>http://lz5000.com/uncategorized/hello-hexo/</id>
     <published>2021-04-20T04:56:30.000Z</published>
-    <updated>2021-05-17T10:12:08.000Z</updated>
+    <updated>2021-05-19T02:03:45.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1&gt;Welcome to Marxico&lt;/h1&gt;
-&lt;p&gt;@(Sample notebook)[Marxico|Manual|Markdown]&lt;/p&gt;
-&lt;p&gt;&lt;ins&gt;inserted&lt;/ins&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Marxico&lt;/strong&gt; is a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1&gt;Welcome to</summary>
         
       
     
@@ -148,7 +166,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Welcome to &lt;a</summary>
         
       
     
@@ -162,16 +180,14 @@
     <link href="http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/di-0yi-zhang-de-dao-zhi-hou/"/>
     <id>http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/di-0yi-zhang-de-dao-zhi-hou/</id>
     <published>2020-03-31T22:47:08.000Z</published>
-    <updated>2021-05-17T12:56:27.000Z</updated>
+    <updated>2021-05-17T14:03:21.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;第〇一章-德道之后&quot;&gt;&lt;strong&gt;第〇一章 德道之后&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;​	&lt;a href=&quot;#word-comment-1&quot;&gt;上德不德&lt;sup&gt;①&lt;/sup&gt;&lt;/a&gt;，是以有德；下德不失德，是以无德。&lt;br&gt;
-​	上德&lt;a</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;第〇一章-德道之后&quot;&gt;&lt;strong&gt;第〇一章</summary>
         
       
     
@@ -189,6 +205,41 @@
     <published>2018-09-07T01:25:00.000Z</published>
     <updated>2021-05-08T22:59:04.000Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://lz5000.com/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="http://lz5000.com/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="http://lz5000.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>typora-vue-them主题介绍3</title>
+    <link href="http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/"/>
+    <id>http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/</id>
+    <published>2018-09-07T01:25:00.000Z</published>
+    <updated>2021-05-08T22:59:31.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;</summary>
+        
+      
     
     
     
@@ -208,6 +259,14 @@
     <published>2018-09-07T01:25:00.000Z</published>
     <updated>2021-05-10T12:33:56.000Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;</summary>
+        
+      
     
     
     
@@ -230,24 +289,13 @@
     <updated>2021-05-04T07:03:10.000Z</updated>
     
     
-    
-    
-    <category term="Markdown" scheme="http://lz5000.com/categories/Markdown/"/>
-    
-    
-    <category term="Typora" scheme="http://lz5000.com/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://lz5000.com/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>typora-vue-them主题介绍3</title>
-    <link href="http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/"/>
-    <id>http://lz5000.com/markdown/typora-vue-them-zhu-ti-jie-shao-3/</id>
-    <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2021-05-08T22:59:31.000Z</updated>
-    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot;</summary>
+        
+      
     
     
     
