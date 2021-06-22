@@ -1,8 +1,18 @@
-/* Here is your custom css styles. */
+/* Here is your markdown css styles. */
 
 @charset "utf-8";
 
-/* techo-typora style */
+/* derive from typora relaozi style */
+@font-face {
+    font-family: '隶书';
+    src: url('/font/标准隶书.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '篆书';
+    src: url('/font/方正小篆体.ttf') format('truetype');
+}
+
 :root {
     --active-file-bg-color: #dadada;
     --active-file-bg-color: rgba(32, 43, 51, 0.63);
@@ -29,7 +39,7 @@ content {
 }
 
 /* input mode  */
-#write {
+#articleContent {
     max-width: 960px;
     padding-top: 2em;
     padding-left: 60px;
@@ -37,10 +47,7 @@ content {
     min-height: calc(100vh - 6em);
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
-}
-
-.typora-node #write {
-    min-height: calc(100% - 6em);
+    background: #f9f5ed;
 }
 
 /* meta - message - block */
@@ -57,7 +64,7 @@ pre.md-meta-block {
         font-size: 14px;
     }
 
-    #write {
+    #articleContent {
         padding-left: 30px;
         background: #f9f5ed;
         padding-right: 30px;
@@ -76,7 +83,7 @@ pre.md-meta-block {
         background: #f9f5ed;
     }
 
-    #write {
+    #articleContent {
         max-width: 1000px;
         padding: 40px 60px;
         background: #f9f5ed;
@@ -84,7 +91,7 @@ pre.md-meta-block {
     }
 
     /* paper outline */
-    .pin-outline #write {
+    .pin-outline #articleContent {
         max-width: 1000px;
         background: #f9f5ed;
         margin: 0 0 0;
@@ -105,7 +112,7 @@ pre.md-meta-block {
         background: #f9f5ed;
     }
 
-    .pin-outline #write {
+    .pin-outline #articleContent {
         max-width: 1000px;
         padding: 40px 60px;
         background: #f9f5ed;
@@ -136,16 +143,15 @@ audio, canvas, video {
 }
 
 body, button, input, select, textarea {
-    font: 400 1em/1.8 "font/han.otf", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+    font: 400 1em/1.8 "Monaco", "隶书", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
 }
 
 body {
-    font-family: "font/han.otf", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+    font-family: "Monaco", "隶书", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "font/han.otf", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
-    /*font-family: "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;*/
+    font-family: "Monaco", "隶书", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
     -webkit-font-smoothing: initial;
     font-weight: 100;
     color: var(--text-color);
@@ -155,12 +161,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 em {
-    font-family: "font/han.otf", Georgia-Italic, STSongti-SC-Light, serif;
+    font-family: "Monaco", "隶书", Georgia-Italic, STSongti-SC-Light, serif;
 }
 
 strong em,
 em strong {
-    font-family: "font/han.otf", Georgia-BoldItalic, STSongti-SC-Regular, serif;
+    font-family: "Monaco", "隶书", Georgia-BoldItalic, STSongti-SC-Regular, serif;
 }
 
 button::-moz-focus-inner,
@@ -255,11 +261,11 @@ a:hover {
     text-decoration: underline;
 }
 
-#write a {
+#articleContent a {
     font-weight: normal;
 }
 
-#write a:hover {
+#articleContent a:hover {
     text-decoration: none;
     border-bottom: 1px solid #4484c2;
 }
@@ -282,7 +288,7 @@ pre, code, pre tt {
     font-family: Courier, 'Courier New', monospace;
 }
 
-#write .md-fences {
+#articleContent .md-fences {
     border: 1px solid #ddd;
     padding: 1em 0.5em;
     display: block;
@@ -302,62 +308,67 @@ strong, b {
 }
 
 /* 段落之间的间隔 */
-#write p, #write .md-fences, #write ul, #write ol, #write dl, #write form, #write hr, #write figure,
-#write-p, #write-pre, #write-ul, #write-ol, #write-dl, #write-form, #write-hr, #write-table, blockquote {
+#articleContent p, #articleContent .md-fences, #articleContent ul, #articleContent ol, #articleContent dl, #articleContent form, #articleContent hr, #articleContent figure,
+#articleContent-p, #articleContent-pre, #articleContent-ul, #articleContent-ol, #articleContent-dl, #articleContent-form, #articleContent-hr, #articleContent-table, blockquote {
     margin-bottom: 1.2em
 }
 
 html {
-    font-family: "font/han.otf", PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+    font-family: "Monaco", "隶书", PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
 
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6,
-#write-h1, #write-h2, #write-h3, #write-h4, #write-h5, #write-h6 {
+#articleContent h1, #articleContent h2, #articleContent h3, #articleContent h4, #articleContent h5, #articleContent h6,
+#articleContent-h1, #articleContent-h2, #articleContent-h3, #articleContent-h4, #articleContent-h5, #articleContent-h6 {
     margin-bottom: 0.6em;
     line-height: 1.35;
     color: #6e4832;
     font-weight: bolder;
 }
 
-#write h1, #write-h1 {
-    font-size: 2.4em;
+#articleContent h1, #articleContent-h1 {
+    font-size: 2.2em;
+    text-align: center;
     padding-bottom: 0.3em;
     border-bottom: 3px double #eee;
 }
 
-#write h2, #write-h2 {
+#articleContent h2, #articleContent-h2 {
     font-size: 1.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 3px double #eee;
 }
 
-#write h3, #write-h3 {
+#articleContent h3, #articleContent-h3 {
     font-size: 1.6em;
+    padding-bottom: 0.3em;
+    border-bottom: 3px double #eee;
 }
 
-#write h4, #write-h4 {
+#articleContent h4, #articleContent-h4 {
     font-size: 1.4em;
 }
 
-#write h5, #write h6, #write-h5, #write-h6 {
+#articleContent h5, #articleContent h6, #articleContent-h5, #articleContent-h6 {
     font-size: 1.2em;
 }
 
 /* 在文章中的 ul 和 ol 的样式 */
-#write ul, #write-ul {
+#articleContent ul, #articleContent-ul {
     margin-left: 1.3em;
     list-style: disc;
 }
 
-#write ol, #write-ol {
+#articleContent ol, #articleContent-ol {
     list-style: decimal;
     margin-left: 1.9em;
 }
 
-#write li ul, #write li ol, #write-ul ul, #write-ul ol, #write-ol ul, #write-ol ol {
+#articleContent li ul, #articleContent li ol, #articleContent-ul ul, #articleContent-ul ol, #articleContent-ol ul, #articleContent-ol ol {
     margin-bottom: 0.8em;
     margin-left: 2em;
 }
 
-#write li ul, #write-ul ul, #write-ol ul {
+#articleContent li ul, #articleContent-ul ul, #articleContent-ol ul {
     list-style: circle;
 }
 
@@ -368,21 +379,16 @@ html {
     color: rgba(110, 72, 50, 0.74);
 }
 
-#write table th, #write-table th {
+#articleContent table th, #articleContent-table th {
     background: #fbfbfb;
 }
 
-#write table thead th, #write-table thead th {
+#articleContent table thead th, #articleContent-table thead th {
     background: rgba(251, 240, 211, 0.76);
 }
 
-#write table caption {
+#articleContent table caption {
     border-bottom: none;
-}
-
-#write em {
-    font-weight: inherit;
-    font-style: inherit;
 }
 
 li > p {
@@ -390,7 +396,7 @@ li > p {
 }
 
 /* Responsive images */
-#write img {
+#articleContent img {
     max-width: 100%;
 }
 
@@ -415,12 +421,8 @@ a.md-toc-inner {
     border: 0 !important;
 }
 
-.mac-seamless-mode #write {
+.mac-seamless-mode #articleContent {
     min-height: calc(100vh - 6em - 20px);
-}
-
-.typora-quick-open-item.active {
-    color: var(--active-file-text-color);
 }
 
 *.in-text-selection, ::selection {
