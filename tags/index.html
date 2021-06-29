@@ -45,7 +45,9 @@
                     
                     <img src="/medias/logo.gif" class="logo-img" alt="LOGO">
                     
+                    
                     <span class="logo-span">老子五千言</span>
+                    
                 </a>
             </div>
             
@@ -147,7 +149,7 @@
         <div class="logo-name">老子五千言</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            不要企图无所不知, 否则你将一无所知。
             
         </div>
     </div>
@@ -327,13 +329,13 @@
                     var typed = new Typed("#subtitle", {
                         strings: [ 
                             
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
                                 "不要企图无所不知, 否则你将一无所知",
                             
                                 "No try to know everything, or you will know nothing",
+                            
+                                "从来没有真正的绝境, 只有心灵的迷途",
+                            
+                                "Never really desperate, only the lost of the soul",
                             
                         ],
                         startDelay: 300,
@@ -373,10 +375,28 @@
             <div class="tag-chips">
                 
                 
+                <a href="/tags/Foo/" title="Foo: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Foo" style="background-color: #F9EBEA;">Foo
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Bar/" title="Bar: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Bar" style="background-color: #F5EEF8;">Bar
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Typora/" title="Typora: 4">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Typora" style="background-color: #F9EBEA;">Typora
+                            data-tagname="Typora" style="background-color: #D5F5E3;">Typora
                         <span class="tag-length">4</span>
                     </span>
                 </a>
@@ -385,8 +405,17 @@
                 <a href="/tags/Markdown/" title="Markdown: 4">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Markdown" style="background-color: #F5EEF8;">Markdown
+                            data-tagname="Markdown" style="background-color: #E8F8F5;">Markdown
                         <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Baz/" title="Baz: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Baz" style="background-color: #FEF9E7;">Baz
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -414,7 +443,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"Typora","weight":4,"link":"/tags/Typora/"},{"text":"Markdown","weight":4,"link":"/tags/Markdown/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"Foo","weight":2,"link":"/tags/Foo/"},{"text":"Bar","weight":2,"link":"/tags/Bar/"},{"text":"Typora","weight":4,"link":"/tags/Typora/"},{"text":"Markdown","weight":4,"link":"/tags/Markdown/"},{"text":"Baz","weight":1,"link":"/tags/Baz/"}], {
         autoResize: true
     });
 </script>

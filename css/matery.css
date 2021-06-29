@@ -310,6 +310,11 @@ header .brand-logo .logo-span {
     font-size: 1.6rem;
 }
 
+header .brand-logo .logo-span-lishu {
+    font-family: "Monaco", "隶书", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+    font-size: 1.6rem;
+}
+
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
 header .brand-logo .waves-effect {
     vertical-align: top;
