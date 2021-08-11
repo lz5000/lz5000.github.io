@@ -4,7 +4,14 @@
   <url>
     <loc>http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/si-er-bu-wang-ji-si-bu-jue/</loc>
     
-    <lastmod>2021-08-08</lastmod>
+    <lastmod>2021-08-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/da-dao-zhi-jian-fu-yin-bao-yang/</loc>
+    
+    <lastmod>2021-08-11</lastmod>
     
   </url>
   
@@ -45,13 +52,6 @@
   
   <url>
     <loc>http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/lao-zi-qi-ren-shang-de-bu-de/</loc>
-    
-    <lastmod>2021-08-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://lz5000.com/lao-zi-zhang-shi-da-ai-fu-ju-zi-you-min-zhu/da-dao-zhi-jian-fu-yin-bao-yang/</loc>
     
     <lastmod>2021-08-06</lastmod>
     
@@ -739,7 +739,7 @@
 
   <url>
     <loc>http://lz5000.com/</loc>
-    <lastmod>2021-08-08</lastmod>
+    <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -748,15 +748,15 @@
 
   
   <url>
-    <loc>http://lz5000.com/categories/%E8%80%81%E5%AD%90%E7%AB%A0%E9%87%8A-%E5%A4%A7%E7%88%B1%E5%BC%97%E5%B1%85-%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB/</loc>
-    <lastmod>2021-08-08</lastmod>
+    <loc>http://lz5000.com/categories/%E5%8F%A4%E4%BB%8A%E8%80%81%E5%AD%90%E6%B1%87%E7%BC%96-%E9%81%93%E5%90%8D%E7%8E%84%E5%90%8C%E7%9C%87%E7%94%9F/</loc>
+    <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://lz5000.com/categories/%E5%8F%A4%E4%BB%8A%E8%80%81%E5%AD%90%E6%B1%87%E7%BC%96-%E9%81%93%E5%90%8D%E7%8E%84%E5%90%8C%E7%9C%87%E7%94%9F/</loc>
-    <lastmod>2021-08-08</lastmod>
+    <loc>http://lz5000.com/categories/%E8%80%81%E5%AD%90%E7%AB%A0%E9%87%8A-%E5%A4%A7%E7%88%B1%E5%BC%97%E5%B1%85-%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB/</loc>
+    <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
